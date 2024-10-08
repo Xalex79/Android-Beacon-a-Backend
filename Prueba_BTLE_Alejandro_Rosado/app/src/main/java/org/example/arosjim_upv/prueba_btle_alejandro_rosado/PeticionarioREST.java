@@ -73,15 +73,15 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
                 Log.d("clienterestandroid", "doInBackground(): no es get, pongo cuerpo");
                 connection.setDoOutput(true);
-                // si no es GET, pongo el cuerpo que me den en la peticin
+                // si no es GET, pongo el cuerpo que me den en la peticion
                 DataOutputStream dos = new DataOutputStream (connection.getOutputStream());
                 dos.writeBytes(this.elCuerpo);
                 dos.flush();
                 dos.close();
             }
 
-            // ya he enviado la peticin
-            Log.d("clienterestandroid", "doInBackground(): peticin enviada ");
+            // ya he enviado la peticion
+            Log.d("clienterestandroid", "doInBackground(): peticion enviada ");
 
             // ahora obtengo la respuesta
 
@@ -111,7 +111,7 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
                 connection.disconnect();
 
             } catch (IOException ex) {
-                // dispara excepcin cuando la respuesta REST no tiene cuerpo y yo intento getInputStream()
+                // dispara excepcion cuando la respuesta REST no tiene cuerpo y yo intento getInputStream()
                 Log.d("clienterestandroid", "doInBackground() : parece que no hay cuerpo en la respuesta");
             }
 
