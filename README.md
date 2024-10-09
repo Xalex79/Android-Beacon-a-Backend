@@ -1,6 +1,7 @@
 # Android Beacon a Backend
 
-Documentación del Proyecto
+Documentación del Proyecto:
+
 Introducción
 Este proyecto es una aplicación Android que interactúa con sensores a través de Bluetooth Low Energy (BLE) y una API REST para recuperar y enviar datos sobre mediciones ambientales. La arquitectura se basa en varias clases, cada una de las cuales desempeña un papel específico en la funcionalidad de la aplicación.
 
