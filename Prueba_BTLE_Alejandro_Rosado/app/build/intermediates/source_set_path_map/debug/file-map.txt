@@ -1,0 +1,36 @@
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-constraintlayout-2.1.4-0 C:\Users\alexi\.gradle\caches\transforms-3\08f55b195dcd0c7c189d9e8288f31b0a\transformed\constraintlayout-2.1.4\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-transition-1.5.0-1 C:\Users\alexi\.gradle\caches\transforms-3\12852b08cad17431e90adff8738aac6d\transformed\transition-1.5.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-core-ktx-1.13.0-2 C:\Users\alexi\.gradle\caches\transforms-3\13c346060fe7d02804cde9fcdb9142c9\transformed\core-ktx-1.13.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-fragment-1.5.4-3 C:\Users\alexi\.gradle\caches\transforms-3\1852a71d59b406663a09fef9300164c3\transformed\fragment-1.5.4\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-viewpager2-1.0.0-4 C:\Users\alexi\.gradle\caches\transforms-3\2868c6dedcc78dd2b55cae718a65f19e\transformed\viewpager2-1.0.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-drawerlayout-1.1.1-5 C:\Users\alexi\.gradle\caches\transforms-3\2af3cb339e7ba881e9ba66649606c06e\transformed\drawerlayout-1.1.1\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-process-2.6.2-6 C:\Users\alexi\.gradle\caches\transforms-3\319d67fc786b7a63b92232643d421c46\transformed\lifecycle-process-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-recyclerview-1.1.0-7 C:\Users\alexi\.gradle\caches\transforms-3\3546725936c0f39241b0f11dbddae49c\transformed\recyclerview-1.1.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-startup-runtime-1.1.1-8 C:\Users\alexi\.gradle\caches\transforms-3\35c44a6062800d6208cce566c14e2f2e\transformed\startup-runtime-1.1.1\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-appcompat-1.7.0-9 C:\Users\alexi\.gradle\caches\transforms-3\49838db19224d1a5e9ac6dd7d2852e59\transformed\appcompat-1.7.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-emoji2-views-helper-1.3.0-10 C:\Users\alexi\.gradle\caches\transforms-3\4e1a79407b7e0af79165ada92ec2be82\transformed\emoji2-views-helper-1.3.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-core-runtime-2.2.0-11 C:\Users\alexi\.gradle\caches\transforms-3\5d56c3fe997e8f211d91cb0fb8f3183c\transformed\core-runtime-2.2.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-cardview-1.0.0-12 C:\Users\alexi\.gradle\caches\transforms-3\620f982873d66a3a41a47a9d4dd46bfa\transformed\cardview-1.0.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-play-services-base-18.5.0-13 C:\Users\alexi\.gradle\caches\transforms-3\6269ec3bdb28dbc441ba0ce4fa845086\transformed\play-services-base-18.5.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-profileinstaller-1.3.1-14 C:\Users\alexi\.gradle\caches\transforms-3\71c7a76b4d2a4076c19e7ab7505c00d0\transformed\profileinstaller-1.3.1\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-annotation-experimental-1.4.0-15 C:\Users\alexi\.gradle\caches\transforms-3\7d7b2c347ef48e653e2a7010515a6c69\transformed\annotation-experimental-1.4.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-livedata-2.6.2-16 C:\Users\alexi\.gradle\caches\transforms-3\7f88be69369666b4c4e860ba6bafee60\transformed\lifecycle-livedata-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-viewmodel-savedstate-2.6.2-17 C:\Users\alexi\.gradle\caches\transforms-3\89dcf065501b639c580f9fab3b37236f\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-emoji2-1.3.0-18 C:\Users\alexi\.gradle\caches\transforms-3\a33b7207dc4ed1b1a15fb90b85d992ba\transformed\emoji2-1.3.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-livedata-core-2.6.2-19 C:\Users\alexi\.gradle\caches\transforms-3\ae356e9d0069b25561d0e58ca6f21678\transformed\lifecycle-livedata-core-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-savedstate-1.2.1-20 C:\Users\alexi\.gradle\caches\transforms-3\b791a40a35adcfb1e3c6118d5ce3a6bb\transformed\savedstate-1.2.1\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-viewmodel-2.6.2-21 C:\Users\alexi\.gradle\caches\transforms-3\b8b6f3711659c802aee8a67279186572\transformed\lifecycle-viewmodel-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-coordinatorlayout-1.1.0-22 C:\Users\alexi\.gradle\caches\transforms-3\ba4e03b7195bc841e25616ba303111be\transformed\coordinatorlayout-1.1.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-activity-1.8.0-23 C:\Users\alexi\.gradle\caches\transforms-3\c7c9b1d5c5480490c683a682d04f4cd3\transformed\activity-1.8.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-lifecycle-runtime-2.6.2-24 C:\Users\alexi\.gradle\caches\transforms-3\d366ae6851310c5008de5ba8943ceb54\transformed\lifecycle-runtime-2.6.2\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-core-1.13.0-25 C:\Users\alexi\.gradle\caches\transforms-3\e296cb8eed3a13438de40c3713e56851\transformed\core-1.13.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-appcompat-resources-1.7.0-26 C:\Users\alexi\.gradle\caches\transforms-3\eab34024bef6497d85958c1e33713dee\transformed\appcompat-resources-1.7.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-material-1.12.0-27 C:\Users\alexi\.gradle\caches\transforms-3\eb27657ec2f12fbd017e83bdbbf1f20f\transformed\material-1.12.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-play-services-basement-18.4.0-28 C:\Users\alexi\.gradle\caches\transforms-3\f0ff8cacf35fbf7716475de809ec7914\transformed\play-services-basement-18.4.0\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-pngs-29 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\build\generated\res\pngs\debug
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-resValues-30 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\build\generated\res\resValues\debug
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-packageDebugResources-31 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-packageDebugResources-32 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\build\intermediates\merged_res\debug
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-debug-34 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\src\debug\res
+org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35 C:\Users\alexi\Documents\Sprint 0 Alex\Android Beacon a Backend\Prueba_BTLE_Alejandro_Rosado\app\src\main\res

@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_fecha.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\fecha.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_localizacion.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\localizacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_temperatura.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\temperatura.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alexi\\.gradle\\daemon\\8.0\\org.example.arosjim_upv.prueba_btle_alejandro_rosado.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    }
+]
