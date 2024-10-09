@@ -12,10 +12,18 @@ import android.util.Log;
 
 // ------------------------------------------------------------------------
 // ------------------------------------------------------------------------
+/**
+ * @brief Clase que realiza peticiones HTTP REST de manera asíncrona.
+ * @author Alejandro Rosado
+ */
 public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
+    /**
+     * @brief Interfaz para manejar la respuesta de una petición REST.
+     * @author Alejandro Rosado
+     */
     public interface RespuestaREST {
         void callback (int codigo, String cuerpo);
     }
@@ -32,6 +40,16 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
+    /**
+     * @brief Realiza una petición REST.
+     * @author Alejandro Rosado
+     * @param metodo: String -> Método HTTP (GET, POST, etc.)
+     * @param urlDestino: String -> URL de destino para la petición
+     * @param cuerpo: String -> Cuerpo de la petición (puede ser null)
+     * @param laRespuesta: RespuestaREST -> Callback para manejar la respuesta
+     * Su flujo: Se configura la petición y se ejecuta en un hilo separado.
+     * Este método inicia la ejecución de la tarea asíncrona para realizar la petición.
+     */
     public void hacerPeticionREST (String metodo, String urlDestino, String cuerpo, RespuestaREST  laRespuesta) {
         this.elMetodo = metodo;
         this.urlDestino = urlDestino;
@@ -43,12 +61,23 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
+    /**
+     * @brief Inicializa una nueva instancia de PeticionarioREST.
+     * @author Alejandro Rosado
+     */
     public PeticionarioREST() {
         Log.d("clienterestandroid", "constructor()");
     }
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
+    /**
+     * @brief Método que ejecuta la lógica de la petición en segundo plano.
+     * @author Alejandro Rosado
+     * @return Boolean -> Indica si la operación fue exitosa
+     * Su flujo: Conecta a la URL, envía la petición y obtiene la respuesta.
+     * Este método se ejecuta en un hilo separado y maneja la conexión HTTP.
+     */
     @Override
     protected Boolean doInBackground(Void... params) {
         Log.d("clienterestandroid", "doInBackground()");
@@ -126,6 +155,13 @@ public class PeticionarioREST extends AsyncTask<Void, Void, Boolean> {
 
     // --------------------------------------------------------------------
     // --------------------------------------------------------------------
+    /**
+     * @brief Método que se llama tras la ejecución de doInBackground().
+     * @author Alejandro Rosado
+     * @param comoFue: Boolean -> Indica el resultado de doInBackground()
+     * Su flujo: Invoca el callback con el código y cuerpo de respuesta.
+     * Este método se ejecuta en el hilo principal después de que se completa la tarea asíncrona.
+     */
     protected void onPostExecute(Boolean comoFue) {
         // llamado tras doInBackground()
         Log.d("clienterestandroid", "onPostExecute() comoFue = " + comoFue);

@@ -113,6 +113,19 @@ public class MainActivity extends AppCompatActivity {
     //----------------------------------------------------------------------------------------------
     // API REST
     //----------------------------------------------------------------------------------------------
+
+    /**
+     * @brief Función de devolución de llamada para el clic del botón "Recibir".
+     * @author Alejandro Rosado
+     * @param quien La vista que activó el evento de clic. (No se utiliza)
+     * @return none
+     *
+     * Esta función se llama cuando se hace clic en el botón "Recibir".
+     * Crea un nuevo objeto PeticionarioREST y realiza una solicitud GET
+     * a la URL especificada para recuperar los datos de las mediciones del sensor.
+     * Luego, la respuesta se procesa para actualizar la IU con los últimos
+     * valores de concentración, temperatura, fecha, ubicación y barra de progreso.
+     */
     public void boton_recibir_pulsado(View quien) {
         Log.d("clienterestandroid", "boton_enviar_pulsado");
         this.laMedida.setText("pulsado");
@@ -174,6 +187,15 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
     }
+
+    /**
+     * @brief Maneja el evento del botón enviar, realizando una petición REST con los datos de medición.
+     * @author Alejandro Rosado
+     * @param quien: View -> boton_enviar_pulsado() -> void
+     * Su flujo: La función se activa al pulsar un botón en la interfaz de usuario.
+     * Esta función obtiene valores de concentración y temperatura, junto con las coordenadas geográficas,
+     * crea un cuerpo JSON para la solicitud, y realiza una petición REST a un servidor especificado.
+     */
     public void boton_enviar_pulsado(View quien) {
         Log.d("clienterestandroid", "boton_enviar_pulsado");
         this.laMedida.setText("pulsado");
@@ -210,6 +232,16 @@ public class MainActivity extends AppCompatActivity {
     // ---------------------------------------------------------------------------------------------
     // BLUETOOTH
     // ---------------------------------------------------------------------------------------------
+
+    /**
+     * @brief Maneja la respuesta a la solicitud de permisos del usuario.
+     * @author Alejandro Rosado
+     * @param requestCode: int -> onRequestPermissionsResult() -> void
+     * @param permissions: String[] -> las peticiones de permisos que se han solicitado.
+     * @param grantResults: int[] -> los resultados de la petición de permisos.
+     * Su flujo: Esta función se activa cuando se solicita permisos y se obtiene la respuesta del usuario.
+     * Se comprueba si se han concedido los permisos solicitados y se logea el resultado.
+     */
     public void onRequestPermissionsResult(int requestCode, String[] permissions,
                                            int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -236,6 +268,14 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
+    /**
+     * @brief Inicia el escaneo de dispositivos Bluetooth LE y establece un callback para manejar los resultados.
+     * @author Alejandro Rosado
+     * @param Ninguno -> buscarTodosLosDispositivosBTLE() -> void
+     * Su flujo: Esta función comienza el proceso de escaneo para detectar dispositivos Bluetooth de baja energía.
+     * Se crea un callback que manejará los resultados de la búsqueda, incluyendo la respuesta cuando se detecta un dispositivo.
+     */
     private void buscarTodosLosDispositivosBTLE() {
         Log.d(ETIQUETA_LOG, " buscarTodosLosDispositivosBTL(): empieza ");
 
@@ -283,6 +323,15 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
+    /**
+     * @brief Muestra la información del dispositivo Bluetooth LE detectado.
+     * @author Alejandro Rosado
+     * @param resultado: ScanResult -> mostrarInformacionDispositivoBTLE() -> void
+     * Su flujo: Esta función extrae y muestra información detallada sobre el dispositivo detectado,
+     * incluyendo nombre, dirección, RSSI y datos del escaneo. También crea un objeto `TramaIBeacon`
+     * para analizar los bytes recibidos y mostrar información específica del iBeacon.
+     */
     private void mostrarInformacionDispositivoBTLE(ScanResult resultado) {
 
         BluetoothDevice bluetoothDevice = resultado.getDevice();
@@ -345,6 +394,14 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
+    /**
+     * @brief Inicia el escaneo de un dispositivo Bluetooth LE específico por nombre.
+     * @author Alejandro Rosado
+     * @param dispositivoBuscado: String -> buscarEsteDispositivoBTLE(String dispositivoBuscado) -> void
+     * Su flujo: Esta función comienza el escaneo para un dispositivo específico, configurando un callback para manejar
+     * los resultados de la búsqueda. El callback mostrará la información del dispositivo encontrado.
+     */
     private void buscarEsteDispositivoBTLE(final String dispositivoBuscado) {
         Log.d(ETIQUETA_LOG, " buscarEsteDispositivoBTLE(): empieza ");
 
@@ -406,6 +463,13 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
+    /**
+     * @brief Detiene la búsqueda de dispositivos Bluetooth LE.
+     * @author Alejandro Rosado
+     * @param Ninguno -> detenerBusquedaDispositivosBTLE() -> void
+     * Su flujo: Esta función detiene el escaneo de dispositivos y libera el callback utilizado para el escaneo.
+     */
     private void detenerBusquedaDispositivosBTLE() {
 
         if (this.callbackDelEscaneo == null) {
@@ -429,6 +493,12 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+
+    /**
+     * @brief Método que se ejecuta cuando se presiona el botón para buscar dispositivos Bluetooth LE.
+     * @param v: View -> botón presionado.
+     * Su flujo: Llama a la función buscarTodosLosDispositivosBTLE() para iniciar el escaneo.
+     */
     public void botonBuscarDispositivosBTLEPulsado(View v) {
         Log.d(ETIQUETA_LOG, " boton buscar dispositivos BTLE Pulsado");
         this.buscarTodosLosDispositivosBTLE();
@@ -436,6 +506,11 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+    /**
+     * @brief Método que se ejecuta cuando se presiona el botón para buscar un dispositivo Bluetooth LE específico.
+     * @param v: View -> botón presionado.
+     * Su flujo: Llama a la función buscarEsteDispositivoBTLE() pasando el nombre del dispositivo a buscar.
+     */
     public void botonBuscarNuestroDispositivoBTLEPulsado(View v) {
         Log.d(ETIQUETA_LOG, " boton nuestro dispositivo BTLE Pulsado");
         //this.buscarEsteDispositivoBTLE( Utilidades.stringToUUID( "EPSG-GTI-PROY-3A" ) );
@@ -447,6 +522,11 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+    /**
+     * @brief Método que se ejecuta cuando se presiona el botón para detener la búsqueda de dispositivos Bluetooth LE.
+     * @param v: View -> botón presionado.
+     * Su flujo: Llama a la función detenerBusquedaDispositivosBTLE() para detener el escaneo.
+     */
     public void botonDetenerBusquedaDispositivosBTLEPulsado(View v) {
         Log.d(ETIQUETA_LOG, " boton detener busqueda dispositivos BTLE Pulsado");
         this.detenerBusquedaDispositivosBTLE();
@@ -454,6 +534,11 @@ public class MainActivity extends AppCompatActivity {
 
     // --------------------------------------------------------------
     // --------------------------------------------------------------
+    /**
+     * @brief Inicializa el Bluetooth y solicita permisos necesarios.
+     * @requires Api >= S (Android 12)
+     * Su flujo: Obtiene el adaptador Bluetooth, habilita el Bluetooth y configura el escáner LE.
+     */
     @RequiresApi(api = Build.VERSION_CODES.S)
     private void inicializarBlueTooth() {
         Log.d(ETIQUETA_LOG, " inicializarBlueTooth(): obtenemos adaptador BT ");
