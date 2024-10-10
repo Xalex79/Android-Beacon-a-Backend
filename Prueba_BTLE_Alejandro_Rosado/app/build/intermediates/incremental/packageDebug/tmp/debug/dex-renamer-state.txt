@@ -1,4 +1,4 @@
-#Tue Oct 08 16:36:34 CEST 2024
+#Thu Oct 10 10:48:19 CEST 2024
 base.0=C\:\\Users\\alexi\\Documents\\Sprint 0 Alex\\Android Beacon a Backend\\Prueba_BTLE_Alejandro_Rosado\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\alexi\\Documents\\Sprint 0 Alex\\Android Beacon a Backend\\Prueba_BTLE_Alejandro_Rosado\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\alexi\\Documents\\Sprint 0 Alex\\Android Beacon a Backend\\Prueba_BTLE_Alejandro_Rosado\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
